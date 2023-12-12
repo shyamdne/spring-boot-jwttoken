@@ -9,14 +9,14 @@
 		<version>2.5.0</version>
 		<relativePath />
 	</parent>
-	<groupId>dev.rezaur</groupId>
-	<artifactId>Spring-Security-JWT</artifactId>
+	<groupId>com.shyam</groupId>
+	<artifactId>spring-boot-security-jwt</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>Spring-Security-JWT</name>
+	<name>spring-boot-security-jwt</name>
 	<description>Spring security with JWT</description>
 
 	<properties>
-		<java.version>15</java.version>
+		<java.version>17</java.version>
 	</properties>
 
 	<dependencies>
@@ -44,10 +44,11 @@
 			<optional>true</optional>
 		</dependency>
 		<dependency>
-			<groupId>com.h2database</groupId>
-			<artifactId>h2</artifactId>
-			<scope>runtime</scope>
+			<groupId>mysql</groupId>
+			<artifactId>mysql-connector-java</artifactId>
+			<version>8.0.19</version>
 		</dependency>
+
 		<dependency>
 			<groupId>com.fasterxml.jackson.module</groupId>
 			<artifactId>jackson-module-kotlin</artifactId>

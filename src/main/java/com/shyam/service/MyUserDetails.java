@@ -1,4 +1,4 @@
-package com.devrezaur.main.service;
+package com.shyam.service;
 
 import java.util.ArrayList;
 import java.util.Collection;
@@ -7,9 +7,10 @@ import java.util.Objects;
 import org.springframework.security.core.GrantedAuthority;
 import org.springframework.security.core.authority.SimpleGrantedAuthority;
 import org.springframework.security.core.userdetails.UserDetails;
-import com.devrezaur.main.model.Role;
-import com.devrezaur.main.model.User;
+
 import com.fasterxml.jackson.annotation.JsonIgnore;
+import com.shyam.model.Role;
+import com.shyam.model.User;
 
 public class MyUserDetails implements UserDetails {
 

@@ -1,4 +1,4 @@
-package com.devrezaur.main.payload;
+package com.shyam.payload;
 
 import java.util.List;
 

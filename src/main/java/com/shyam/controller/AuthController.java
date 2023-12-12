@@ -1,4 +1,4 @@
-package com.devrezaur.main.controller;
+package com.shyam.controller;
 
 import java.util.List;
 import java.util.stream.Collectors;
@@ -12,11 +12,12 @@ import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
-import com.devrezaur.main.model.User;
-import com.devrezaur.main.payload.JwtResponse;
-import com.devrezaur.main.security.jwt.JwtUtils;
-import com.devrezaur.main.service.MyUserDetails;
-import com.devrezaur.main.service.UserService;
+
+import com.shyam.model.User;
+import com.shyam.payload.JwtResponse;
+import com.shyam.security.jwt.JwtUtils;
+import com.shyam.service.MyUserDetails;
+import com.shyam.service.UserService;
 
 @RestController
 @RequestMapping("/auth")

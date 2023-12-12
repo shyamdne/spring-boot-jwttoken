@@ -1,4 +1,4 @@
-package com.devrezaur.main.model;
+package com.shyam.model;
 
 import java.util.List;
 import javax.persistence.CascadeType;

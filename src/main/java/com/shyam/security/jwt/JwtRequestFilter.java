@@ -1,4 +1,4 @@
-package com.devrezaur.main.security.jwt;
+package com.shyam.security.jwt;
 
 import java.io.IOException;
 import java.util.List;

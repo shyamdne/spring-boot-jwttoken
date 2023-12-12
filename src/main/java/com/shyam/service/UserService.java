@@ -1,13 +1,16 @@
-package com.devrezaur.main.service;
+package com.shyam.service;
 
 import java.util.Arrays;
+import java.util.List;
+
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.security.crypto.password.PasswordEncoder;
 import org.springframework.stereotype.Service;
-import com.devrezaur.main.model.Role;
-import com.devrezaur.main.model.User;
-import com.devrezaur.main.repository.RoleRepository;
-import com.devrezaur.main.repository.UserRepository;
+
+import com.shyam.model.Role;
+import com.shyam.model.User;
+import com.shyam.repository.RoleRepository;
+import com.shyam.repository.UserRepository;
 
 @Service
 public class UserService {
@@ -39,4 +42,4 @@ public class UserService {
         return user = userRepository.save(user);
 	}
 
-}
+	}

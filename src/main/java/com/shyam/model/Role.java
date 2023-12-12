@@ -1,4 +1,4 @@
-package com.devrezaur.main.model;
+package com.shyam.model;
 
 import javax.persistence.Column;
 import javax.persistence.Entity;

@@ -1,4 +1,4 @@
-package com.devrezaur.main.security;
+package com.shyam.security;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.annotation.Bean;
@@ -15,8 +15,9 @@ import org.springframework.security.web.authentication.UsernamePasswordAuthentic
 import org.springframework.web.cors.CorsConfiguration;
 import org.springframework.web.cors.CorsConfigurationSource;
 import org.springframework.web.cors.UrlBasedCorsConfigurationSource;
-import com.devrezaur.main.security.jwt.JwtRequestFilter;
-import com.devrezaur.main.service.MyUserDetailsService;
+
+import com.shyam.security.jwt.JwtRequestFilter;
+import com.shyam.service.MyUserDetailsService;
 
 @Configuration
 @EnableWebSecurity

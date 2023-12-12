@@ -1,4 +1,4 @@
-package com.devrezaur.main.security.jwt;
+package com.shyam.security.jwt;
 
 import java.util.Date;
 import java.util.HashMap;
@@ -9,7 +9,9 @@ import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.stereotype.Component;
-import com.devrezaur.main.service.MyUserDetails;
+
+import com.shyam.service.MyUserDetails;
+
 import io.jsonwebtoken.Claims;
 import io.jsonwebtoken.ExpiredJwtException;
 import io.jsonwebtoken.Jwts;
